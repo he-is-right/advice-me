@@ -20,6 +20,8 @@ body{
     margin-top: 10%;
     background-color: #313a49;
     max-width: 30%;
+    min-width: 30%;
+    max-height: 50%;
     border-radius: 12px;
     box-shadow: 10px 10px 14px -5px rgba(0,0,0,0.61);
     -webkit-box-shadow: 10px 10px 14px -5px rgba(0,0,0,0.61);
@@ -70,3 +72,16 @@ h3{
 p{
     padding: 0.75rem;
 }
+@media (min-width: 168px) and (max-width: 1024px) {
+  
+    .advice-container{
+        min-width: 80%;
+        min-height: 40%;
+        margin-top: 10%;
+    }
+    body{
+        height: 100vh;
+        overflow: hidden;
+    }
+    
+  }
