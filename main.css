@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kufam:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kufam', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2532;
+}
+.advice-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    background-color: #313a49;
+    max-width: 30%;
+    border-radius: 12px;
+    box-shadow: 10px 10px 14px -5px rgba(0,0,0,0.61);
+    -webkit-box-shadow: 10px 10px 14px -5px rgba(0,0,0,0.61);
+    -moz-box-shadow: 10px 10px 14px -5px rgba(0,0,0,0.61);
+
+}
+.grin{
+    color: #7ec291;
+    font-size: small;
+}
+button{
+    border: none;
+    outline: none;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+button:hover{
+    cursor: pointer;
+}
+.dice{
+    background-color: #7ec291;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #313a49;
+}
+.fa-pause{
+    display: flex;
+    color: #f5f5f5;
+}
+.section{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+h3{
+    width: 70%;
+    color: #f5ebeb;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem;
+    font-weight: lighter;
+}
+p{
+    padding: 0.75rem;
+}
