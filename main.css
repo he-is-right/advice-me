@@ -40,6 +40,8 @@ button{
 }
 button:hover{
     cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 25px 10px hsla(150, 100%, 66%, 0.5);
 }
 .dice{
     background-color: #7ec291;
